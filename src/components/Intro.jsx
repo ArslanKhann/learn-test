@@ -1,5 +1,6 @@
 import React from "react";
 import Introimg from "../images/Intro.webp";
+import { AiFillPlayCircle } from "react-icons/ai";
 
 const Intro = () => {
   return (
@@ -13,8 +14,9 @@ const Intro = () => {
           Start free trial
         </span>
       </div>
-      <div className="md:flex-1">
+      <div className="relative md:flex-1">
         <img src={Introimg} alt=""></img>
+        <AiFillPlayCircle className="text-white cursor-pointer hover:text-opacity-50 text-6xl absolute top-0 bottom-0 right-0 left-0 m-auto" />
       </div>
     </div>
   );
