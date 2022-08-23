@@ -3,6 +3,8 @@ import Mininav from "./components/Mininav";
 import Categorybar from "./components/Categorybar";
 import Intro from "./components/Intro";
 import Featured from "./components/Featured";
+import Heading from "./components/Heading";
+import FeaturedProducts from "./components/FeaturedProducts";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <Mininav />
       <Categorybar />
       <Intro />
-      <Featured />
+      <Heading text="FEATURED PRODUCTS" />
+      <FeaturedProducts />
     </>
   );
 }

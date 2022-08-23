@@ -1,14 +1,13 @@
 import React from "react";
-import Earbeats1 from "../images/Earbeats1.jpg";
 
-const Featured = () => {
+const Featured = (props) => {
   return (
-    <div className=" mt-10 mb-10 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div>
-        <img src={Earbeats1} alt="" className="w-96"></img>
+        <img src={props.image} alt="" className="w-96"></img>
       </div>
       <div className="w-96 pt-5 px-6 tracking-tight">
-        <h1 className="text-3xl font-bold ">Beats Fit Pro</h1>
+        <h1 className="text-3xl font-bold ">{props.title}</h1>
         <p className="text-lg font-bold mt-2">$199.99</p>
         <ul className="mt-4 ml-4">
           <li className="list-disc">Flexible, secure-fit wingtips</li>
