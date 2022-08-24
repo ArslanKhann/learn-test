@@ -2,12 +2,12 @@ import React from "react";
 
 const Featured = (props) => {
   return (
-    <div className="flex flex-col items-center">
-      <div>
-        <img src={props.image} alt="" className="w-96"></img>
+    <div className="flex flex-col md:flex-row items-center justify-center lg:mx-28 xl:w-[1024px] xl:mx-auto">
+      <div className="w-96 md:flex-1 xl:flex-[2]">
+        <img src={props.image} alt=""></img>
       </div>
-      <div className="w-96 pt-5 px-6 tracking-tight">
-        <h1 className="text-3xl font-bold ">{props.title}</h1>
+      <div className="w-96 md:flex-1 pt-5 px-6 md:pl-8 lg:pl-20 md:pr-12 tracking-tight">
+        <h1 className="text-3xl lg:text-4xl font-bold ">{props.title}</h1>
         <p className="text-lg font-bold mt-2">$199.99</p>
         <ul className="mt-4 ml-4">
           <li className="list-disc">Flexible, secure-fit wingtips</li>
@@ -29,7 +29,7 @@ const Featured = (props) => {
           <div className="w-3 h-3 rounded-full bg-cyan-400 ml-3"></div>
           <div className="w-3 h-3 rounded-full bg-purple-400 ml-3"></div>
         </div>
-        <div className="mt-4 text-sm font-bold w-fit text-white hover:text-black bg-black hover:bg-white px-5 py-2 rounded-full border-2 border-black">
+        <div className="mt-4 text-sm lg:text-[15px] font-bold w-fit text-white hover:text-black bg-black hover:bg-white px-5 lg:px-7 py-2 lg:py-3 rounded-full border-2 border-black">
           VIEW DETAILS
         </div>
       </div>

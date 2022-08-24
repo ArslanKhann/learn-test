@@ -4,6 +4,8 @@ import Categorybar from "./components/Categorybar";
 import Intro from "./components/Intro";
 import Heading from "./components/Heading";
 import FeaturedProducts from "./components/FeaturedProducts";
+import Productcard from "./components/Productcard";
+import Hotaccess from "./components/Hotaccess";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Intro />
       <Heading text="FEATURED PRODUCTS" />
       <FeaturedProducts />
+      <Heading text="HOT ACCESSORIES" />
+      <Hotaccess />
     </>
   );
 }
