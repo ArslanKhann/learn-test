@@ -4,8 +4,9 @@ import Categorybar from "./components/Categorybar";
 import Intro from "./components/Intro";
 import Heading from "./components/Heading";
 import FeaturedProducts from "./components/FeaturedProducts";
-import Productcard from "./components/Productcard";
 import Hotaccess from "./components/Hotaccess";
+import Topfooter from "./components/footers/Topfooter";
+import Middlefooter from "./components/footers/Middlefooter";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <FeaturedProducts />
       <Heading text="HOT ACCESSORIES" />
       <Hotaccess />
+      <Topfooter />
+      <Middlefooter />
     </>
   );
 }
