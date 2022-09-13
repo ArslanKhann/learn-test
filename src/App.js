@@ -7,6 +7,7 @@ import FeaturedProducts from "./components/FeaturedProducts";
 import Hotaccess from "./components/Hotaccess";
 import Topfooter from "./components/footers/Topfooter";
 import Middlefooter from "./components/footers/Middlefooter";
+import Bottomfooter from "./components/footers/Bottomfooter";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Hotaccess />
       <Topfooter />
       <Middlefooter />
+      <Bottomfooter />
     </>
   );
 }
